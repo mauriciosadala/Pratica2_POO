@@ -7,7 +7,7 @@ public class Calculo {
     }
 
     public float rendimento(){
-        float resultado = (((taxa/100)*meses)*investInicio);
+        float resultado = (((taxa/100)*meses)+investInicio);
         return resultado;
 
 
